@@ -1,0 +1,39 @@
+/* LeaveRequests.css */
+.table th, .table td {
+    text-align: center;
+}
+
+.btn {
+    min-width: 100px;
+}
+
+/* Custom styles for small screens */
+@media (max-width: 775px) {
+    .table th, .table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 5px 10px;
+        min-width: 80px;
+    }
+    .table th:nth-child(5), .table td:nth-child(5) {
+        display: none;
+    }
+    .form-label.d-none.d-md-block {
+        display: none !important;
+    }
+    .form-control.d-none.d-md-block {
+        display: none !important;
+    }
+
+    /* To stop the table from bouncing.css */
+    .important-width {
+        min-width: 150px; 
+    }
+
+    .leave-requests-table th, .leave-requests-table td {
+        min-width: 150px; 
+    }
+}
