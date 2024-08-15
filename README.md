@@ -9,7 +9,7 @@ To get started with the project, you'll need to follow these steps:
 ### Prerequisites
 
 Ensure you have the following installed on your machine:
-
+- **must have server runnng I use Wamp** 
 - **Node.js** (v20.6.1 or later)
 - **npm** (v10.8.2 or later)
 - **PHP** (v8.2 or later)
